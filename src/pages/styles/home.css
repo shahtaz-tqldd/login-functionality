@@ -1,0 +1,31 @@
+.logout-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgba(255, 88, 124, 0.784);
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logout-btn:hover{
+    background-color: rgba(255, 88, 124);
+    transition: .3s;
+}
+
+.home-card{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.home-card>h1{
+    font-size: 50px;
+}
+.home-card>div{
+    text-align: start;
+}
+.home-card>div>p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}

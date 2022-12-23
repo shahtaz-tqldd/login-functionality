@@ -1,0 +1,60 @@
+.register{
+    background-color: rgb(236, 236, 236);
+    padding: 20px 30px 40px;
+    border-radius: 12px;
+    text-align: start;
+}
+.register>h2{
+    margin-bottom: 40px;
+}
+.register>div{
+    margin-top: 25px;
+    text-align: center;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.register-form>div{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 5px;
+}
+.register-form>div>label{
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 4px;
+}
+.register-form>div>input{
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(255, 216, 181, 0.368);
+    font-size: 15px;
+}
+.register-form>div>input:focus{
+    outline: 2px solid rgb(2, 172, 138);
+    background-color: rgba(0, 167, 173, 0.23);
+}
+.error-text{
+    color: rgb(255, 120, 120);
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgba(20, 207, 154, 0.784);
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(20, 207, 154);
+    transition: .3s;
+
+}
